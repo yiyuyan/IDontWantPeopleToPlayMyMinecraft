@@ -1,0 +1,81 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-01-11 11:12:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2025-01-11 11:14:32 +0800",
+      "minecraft:windswept_hills": "2025-01-11 11:13:01 +0800",
+      "minecraft:snowy_plains": "2025-01-11 11:13:15 +0800",
+      "minecraft:snowy_taiga": "2025-01-11 11:13:16 +0800",
+      "minecraft:frozen_ocean": "2025-01-11 11:13:46 +0800",
+      "minecraft:snowy_beach": "2025-01-11 11:13:51 +0800",
+      "minecraft:windswept_gravelly_hills": "2025-01-11 12:37:17 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-11 11:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-01-11 11:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-11 11:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-11 11:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-01-11 12:19:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-01-11 12:19:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-01-11 12:36:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-01-11 12:36:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-01-11 12:36:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-01-11 12:36:46 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
