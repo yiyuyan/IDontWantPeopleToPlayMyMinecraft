@@ -40,7 +40,14 @@ public abstract class TitleScreenMixin {
         IDontWantPeopleToPlayMyMinecraft.sounds = new ArrayList<>(Minecraft.getInstance().getSoundManager().getAvailableSounds());
         IDontWantPeopleToPlayMyMinecraft.sounds = new ArrayList<>(Minecraft.getInstance().getSoundManager().getAvailableSounds());
         EntityModelSet instance = Minecraft.getInstance().getEntityModels();
-        Field field = instance.getClass().getDeclaredField("roots");
+        Field field;
+        try{
+            field = instance.getClass().getDeclaredField("roots");
+        }
+        catch (NoSuchFieldException e){
+            //not develop environment
+            field = instance.getClass().getDeclaredField("f_171099_");
+        }
         field.setAccessible(true);
         for (ModelLayerLocation modelLayerLocation : ((Map<ModelLayerLocation, LayerDefinition>) field.get(instance)).keySet()) {
             IDontWantPeopleToPlayMyMinecraft.models.add(modelLayerLocation.getModel());
