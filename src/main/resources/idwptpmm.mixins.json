@@ -5,9 +5,11 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "idwptpmm.refmap.json",
   "mixins": [
+    "ComponentMixin"
   ],
   "client": [
     "AbstractSoundInstanceMixin",
+    "DrawContextMixin",
     "FontMixin",
     "MinecraftMixin",
     "ModelLayerLocationMixin",
